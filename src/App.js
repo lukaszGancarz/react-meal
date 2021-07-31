@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Navi from "./components/navi/Navi";
+import styles from "./App.module.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.app}>
+      <Navi />
+      <div className={styles.main}>
+        <div className={styles.img}>
+          <div className={styles.info}>
+            <h1>Delicious Food, Delivered to You</h1>
+            <div className={styles.text}>
+              Choose your favorite meal from out broad selection of avaliable
+              meals and enjoy a delicious lunch or dinner at home.
+            </div>
+            <div className={styles.text}>
+              All our meals are cooked with high-quality ingredoemts,
+              just-in-time and of course by experienced chefs!
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

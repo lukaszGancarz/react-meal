@@ -1,0 +1,52 @@
+.navi {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(126, 32, 32);
+    padding: 0;
+    margin: 0;
+}
+
+
+.cart {
+    width: auto;
+    height: 50px;
+    background-color: rgba(58, 17, 17, 0.781);
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 40px;
+    cursor: pointer;
+}
+
+.cart:hover {
+    transform: scale(110%);
+}
+
+img {
+    height: 30px;
+    margin: 5px;
+}
+
+label {
+    margin: 5px;
+    font-size: 17px;
+}
+
+.couter {
+    width: 45px;
+    height: 30px;
+    background-color: rgba(255, 99, 71, 0.753);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 17px;
+}
